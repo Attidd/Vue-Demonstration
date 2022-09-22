@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="greetings">
+  <div class="Name">
     <h1 class="green">{{ msg }}</h1>
     <h3>
       Click the links below to see examples. 
@@ -24,14 +24,14 @@ h3 {
   font-size: 1.2rem;
 }
 
-.greetings h1,
-.greetings h3 {
+.name h1,
+.name h3 {
   text-align: center;
 }
 
 @media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
+  .name h1,
+  .name h3 {
     text-align: left;
   }
 }

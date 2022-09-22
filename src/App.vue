@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+import LeftVue from "./components/LeftVue.vue";
 </script>
 
 <template>
@@ -14,11 +14,12 @@ import HelloWorld from "./components/HelloWorld.vue";
     />
 
     <div class="wrapper">
-      <HelloWorld msg="VueJS" />
+      <LeftVue msg="Aaron Robinson" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/VueSample">About</RouterLink>
+        <RouterLink to="/">About Me</RouterLink>
+        <RouterLink to="/VueSample">Projects</RouterLink>
+        <a href="https://github.com/Attidd/">Sample Code</a>
       </nav>
     </div>
   </header>
@@ -31,7 +32,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 header {
   line-height: 1.5;
-  max-height: 100vh;
+  background-color: silver;
+  min-height: 30vh;
 }
 
 .logo {
@@ -40,10 +42,10 @@ header {
 }
 
 nav {
-  width: 100%;
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  background: var(--color-background-soft);
 }
 
 nav a.router-link-exact-active {
@@ -68,11 +70,11 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    margin-right: calc(var(--section-gap) / 2);
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    margin: 2rem;
   }
 
   header .wrapper {
