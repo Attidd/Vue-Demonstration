@@ -1,19 +1,36 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-import LeftVue from "./components/LeftVue.vue";
-import VueBlock from "./components/VueBlock.vue";
+import LeftVue from "./LeftVue.vue";
 </script>
 
 <template>
-<VueBlock/>
+  <div class="leftblockvue">
+    <img
+      alt="Vue logo"
+      class="logo"
+      src="@/assets/logo.svg"
+      width="125"
+      height="125"
+    />
 
+    <div class="wrapper">
+      <LeftVue msg="Aaron Robinson" />
 
+      <nav>
+        <RouterLink to="/">About Me</RouterLink>
+        <RouterLink to="/VueSample">Projects</RouterLink>
+        <a href="https://github.com/Attidd/">Sample Code</a>
+      </nav>
+    </div>
+  </div>
+
+  <RouterView />
 </template>
 
 <style scoped>
 
 
-header {
+.leftblockvue {
   line-height: 1.5;
   background-color: silver;
   min-height: 30vh;
@@ -51,7 +68,7 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
-  header {
+  .leftblockvue {
     display: flex;
     place-items: center;
     margin-right: calc(var(--section-gap) / 2);
@@ -61,7 +78,7 @@ nav a:first-of-type {
     margin: 2rem;
   }
 
-  header .wrapper {
+  .leftblockvue .wrapper {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
