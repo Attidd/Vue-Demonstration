@@ -4,11 +4,12 @@ import LeftVue from "./components/LeftVue.vue";
 import VueBlock from "./components/VueBlock.vue";
 import StylingBlock from "./components/StylingBlock.vue";
 import FooterBlock from "./components/FooterBlock.vue";
+import HeaderBlock from "./components/HeaderBlock.vue";
 </script>
 
 <template>
 <div class="wrapper">
-  <header class="page-header">This is the header</header>
+  <HeaderBlock/>
     <div class="block">
       <VueBlock/>
       </div>
