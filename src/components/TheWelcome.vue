@@ -12,13 +12,10 @@ import SupportIcon from "./icons/IconSupport.vue";
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>Web Novel</template>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener"
-      >official documentation</a
-    >
-    provides you with all information you need to get started.
+    I use Vue for my 
+	<a>Web Novel's</a> reader page. The lightweight components allows it to load really quickly on phones even with lots of text. 
   </WelcomeItem>
 
   <WelcomeItem>
