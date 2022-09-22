@@ -4,32 +4,40 @@ import LeftVue from "./LeftVue.vue";
 </script>
 
 <template>
-  <div class="leftblockvue">
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
+  <div class="vueblock">
+    <div class="leftblockvue">
+      <img
+        alt="Vue logo"
+        class="logo"
+        src="@/assets/logo.svg"
+        width="125"
+        height="125"
+      />
 
-    <div class="wrapper">
-      <LeftVue msg="Aaron Robinson" />
+      <div class="wrapper">
+        <LeftVue msg="Aaron Robinson" />
 
-      <nav>
-        <RouterLink to="/">About Me</RouterLink>
-        <RouterLink to="/VueSample">Projects</RouterLink>
-        <a href="https://github.com/Attidd/">Sample Code</a>
-      </nav>
+        <nav>
+          <RouterLink to="/">About Me</RouterLink>
+          <RouterLink to="/VueSample">Projects</RouterLink>
+          <a href="https://github.com/Attidd/">Sample Code</a>
+        </nav>
+      </div>
     </div>
-  </div>
 
   <RouterView />
+  </div>
 </template>
 
 <style scoped>
 
 
+.vueblock {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 2fr 1fr;
+  padding: 0 2rem;
+  }
 .leftblockvue {
   line-height: 1.5;
   background-color: silver;
