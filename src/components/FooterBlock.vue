@@ -1,6 +1,6 @@
 <template>
   <footer class="page-footer">
-    This is a footer
+    <a href="https://github.com/Attidd/Vue-Demonstration">GITHUB</a>
   </footer>
 </template>
 
@@ -12,4 +12,7 @@
   padding: 20px;
 }
 
+img {
+  height: 40px;
+}
 </style>
