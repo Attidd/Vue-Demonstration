@@ -36,8 +36,10 @@ import LeftVue from "./LeftVue.vue";
   display: grid;
   padding: 2rem;
   grid-template-columns: 2fr 1fr;
-  padding: 0 2rem;
-  }
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .leftblockvue {
   line-height: 1.5;
   background-color: silver;

@@ -7,15 +7,30 @@ import FooterBlock from "./components/FooterBlock.vue";
 </script>
 
 <template>
-<StylingBlock/>
-<VueBlock/>
+<div class="wrapper">
+  <header class="page-header">This is the header</header>
+    <div class="block">
+      <VueBlock/>
+      </div>
+      <StylingBlock/>
+    <div class="block">
+      <VueBlock/>
+      </div>
+
 <FooterBlock/>
 
+</div>
 
 </template>
 
 <style scoped>
 
+.page-header {
+}
 
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  }
 
 </style>
