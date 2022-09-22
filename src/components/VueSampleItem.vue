@@ -68,6 +68,7 @@ i {
 
 h3 {
   font-family: sans-serif;
+  font-size: 20px;
 }
 
 </style>
