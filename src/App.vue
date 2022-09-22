@@ -5,11 +5,15 @@ import VueBlock from "./components/VueBlock.vue";
 import StylingBlock from "./components/StylingBlock.vue";
 import FooterBlock from "./components/FooterBlock.vue";
 import HeaderBlock from "./components/HeaderBlock.vue";
+import RailsBlock from "./components/RailsBlock.vue";
 </script>
 
 <template>
 <div class="wrapper">
   <HeaderBlock/>
+    <div class="block">
+      <RailsBlock/>
+    </div>
     <div class="block">
       <VueBlock/>
     </div>
