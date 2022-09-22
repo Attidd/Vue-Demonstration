@@ -10,6 +10,13 @@ import VueSampleItem from "./VueSampleItem.vue";
         <DocumentationIcon /> 
       </template>
     <template #heading>Web Novel</template>
-      I use Vue for my <a> Web novel's</a> reader page. The lightweight components allows it to load really quickly on phones even with lots of text.
+    <template #vuelink>
+      <a
+        href="https://google.com"
+        target="_blank"
+        rel="noopener"
+        ><h3> LINK </h3></a>
+    </template>
+      I use Vue for my <a> Web novel's</a> reader page. The lightweight components allows it to load really quickly on phones even with lots of text.  Most importantly the readability allows it to remain consistent with Ruby on Rails design.
   </VueSampleItem>
 </template>
