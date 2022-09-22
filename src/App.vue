@@ -12,11 +12,11 @@ import HeaderBlock from "./components/HeaderBlock.vue";
   <HeaderBlock/>
     <div class="block">
       <VueBlock/>
-      </div>
+    </div>
       <StylingBlock/>
     <div class="block">
       <VueBlock/>
-      </div>
+    </div>
 
 <FooterBlock/>
 
