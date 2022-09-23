@@ -6,7 +6,12 @@
   <div class="block">
     <div class="railsBlock">
       <div class="railsLeft">
-      Hello
+        <ul>
+          <li>Familiar with the Ruby on Rails ecosystem, including RSPEC.</li>
+          <li>Experience with consuming and designing RESTful APIs</li>
+          <li>Proficient with Babel, Webpack and Git</li>
+          <li>Proficient with Linux servers, Heroku and managing database tables with SQL.</li>
+        </ul>
       </div>
       <div class="railsRight">
       <button>RSPEC</button>
@@ -37,12 +42,17 @@
     margin: 0 auto;
   }
 
+  .block {
+    background: #F0E7E9;
+    border: 1px solid black;
+    margin-bottom: 100px;
+  }
+
   button {
     background-color: #F0E7E9;
     border-radius: 3px;
     margin: 10px;
   }
-
 
   .primaryColor {
     background-color: #F0E7E9;
