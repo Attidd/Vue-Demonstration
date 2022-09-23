@@ -1,5 +1,5 @@
 <template>
-<header class="page-header">This is a header</header>
+<header class="page-header">Aaron Robinson Resume</header>
 </template>
 
 <style scoped>
