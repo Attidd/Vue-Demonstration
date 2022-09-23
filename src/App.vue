@@ -11,9 +11,8 @@ import RailsBlock from "./components/RailsBlock.vue";
 <template>
 <div class="wrapper">
   <HeaderBlock/>
-    <div class="block">
+
       <RailsBlock/>
-    </div>
     <div class="block">
       <VueBlock/>
     </div>

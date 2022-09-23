@@ -3,6 +3,22 @@
   <div class="railsTop">
     <h1>Ruby on Rails</h1>
   </div>
+  <div class="block">
+    <div class="railsBlock">
+      <div class="railsLeft">
+      Hello
+      </div>
+      <div class="railsRight">
+      <button>RSPEC</button>
+      <button>Rails 5</button>
+      <button>Rails 7</button>
+      <button>Ruby </button>
+      <button>SQL </button>
+      <button>TypeScript</button>
+      <button>ActiveAdmin</button>
+      </div>
+    </div>
+  </div>
 </template>
 
 
@@ -20,6 +36,14 @@
     max-width: 1280px;
     margin: 0 auto;
   }
+
+  button {
+    background-color: #F0E7E9;
+    border-radius: 3px;
+    margin: 10px;
+  }
+
+
   .primaryColor {
     background-color: #F0E7E9;
   }
